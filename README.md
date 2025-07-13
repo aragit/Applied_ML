@@ -41,34 +41,28 @@ Though there are many ML courses, most focus on theory and students finish witho
    pip install -r requirements.txt
 3. Browse the folders below and jump into any notebook or script that matches your needs.
 
-#### Repository Structure
-   Applied-Machine-Learning/
-├── README.md                    ← this overview
+### Repository Structure
+   ── README.md ← This overview
 ├── LICENSE
-├── requirements.txt             ← core Python deps
-├── examples/                    ← runnable end-to-end case studies
-│   ├── churn-prediction/        ← Example: telco churn pipeline
-│   ├── image-classification/    ← Example: transfer learning demo
-│   └── ad-click-fraud/          ← Example: anomaly detection workflow
-│
-├── patterns/                    ← reusable “how-to” modules
-│   ├── data_prep/               ← cleaning, imputation, augmentation
-│   ├── feature_engineering/     ← encoding, interactions, embeddings
-│   ├── model_training/          ← wrappers for GridSearch, BayesianOpt
-│   └── evaluation/              ← custom metrics, cross-val utils
-│
-├── cheatsheets/                 ← quick‐reference notebooks & scripts
-│   ├── hyperparameter_search.md
-│   ├── deployment_cheats.md
-│   └── monitoring_alerts.md
-│
-├── experiments/                 ← benchmarking experiments
-│   ├── xgboost_vs_lightgbm.ipynb
-│   ├── cpu_gpu_comparison.ipynb
-│   └── new_architectures/       ← e.g. TabTransformer, AutoGluon
-│
-└── utils/                       ← small helper scripts & configs
-    ├── logger.py
-    ├── docker/                  ← Dockerfile + compose for demos
-    └── ci/                      ← CI workflows (lint, tests, notebooks)
-
+├── requirements.txt ← Core Python dependencies
+├── examples/ ← Runnable end-to-end case studies
+│ ├── churn-prediction/ ← Example: telco churn prediction pipeline
+│ ├── image-classification/← Example: transfer learning demo
+│ └── ad-click-fraud/ ← Example: anomaly detection workflow
+├── patterns/ ← Reusable “how-to” modules
+│ ├── data_prep/ ← Cleaning, imputation, augmentation
+│ ├── feature_engineering/ ← Encoding, interactions, embeddings
+│ ├── model_training/ ← Wrappers for GridSearch, BayesianOpt
+│ └── evaluation/ ← Custom metrics, cross-validation utils
+├── cheatsheets/ ← Quick-reference notebooks & scripts
+│ ├── hyperparameter_search.md
+│ ├── deployment_cheats.md
+│ └── monitoring_alerts.md
+├── experiments/ ← Benchmarking experiments
+│ ├── xgboost_vs_lightgbm.ipynb
+│ ├── cpu_gpu_comparison.ipynb
+│ └── new_architectures/ ← e.g. TabTransformer, AutoGluon
+└── utils/ ← Small helper scripts & configs
+├── logger.py
+├── docker/ ← Dockerfile + docker-compose configs
+└── ci/ ← CI workflows (linting, tests, notebook checks)
