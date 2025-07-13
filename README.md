@@ -3,7 +3,7 @@ Applying machine learning is hard. Many organizations have yet to benefit from M
 
 Though there are many ML courses, most focus on theory and students finish without knowing how to apply ML. Practical know-how is gained via hands-on experience and seldom documented—it's hard to find it in a textbook, class, or tutorial. There's a gap between knowing ML vs. applying it at work.
 
-# 🌟 Applied Machine Learning
+### 🌟 Applied Machine Learning
 
 Applying machine learning is hard. Many organizations have yet to benefit from ML, and most teams still find it tricky to apply it effectively.
 
@@ -17,10 +17,10 @@ Though there are many ML courses, most focus on theory and students finish witho
 
 ### What you’ll find here
 
-- **🔧 Pattern Gallery**  
+- ** Pattern Gallery**  
   Reusable “how‑to” recipes for data prep, feature engineering, model training, evaluation, and monitoring.
 
-- **💡 Case Studies**  
+- ** Case Studies**  
   End‑to‑end mini‑projects illustrating the complete ML lifecycle—from raw data through production‑ready model.
 
 - **📓 Cheatsheets & Utilities**  
@@ -31,9 +31,44 @@ Though there are many ML courses, most focus on theory and students finish witho
 
 ---
 
-## 🚀 Getting Started
+###  Getting Started
 
 1. **Clone this repo**  
-   ```bash
-   git clone https://github.com/yourusername/Applied-Machine-Learning.git
-   cd Applied-Machine-Learning
+   
+   git clone https://github.com/yourusername/Applied_ML.git
+   cd Applied_ML
+2. Install dependencies
+   pip install -r requirements.txt
+3. Browse the folders below and jump into any notebook or script that matches your needs.
+
+#### Repository Structure
+   Applied-Machine-Learning/
+├── README.md                    ← this overview
+├── LICENSE
+├── requirements.txt             ← core Python deps
+├── examples/                    ← runnable end-to-end case studies
+│   ├── churn-prediction/        ← Example: telco churn pipeline
+│   ├── image-classification/    ← Example: transfer learning demo
+│   └── ad-click-fraud/          ← Example: anomaly detection workflow
+│
+├── patterns/                    ← reusable “how-to” modules
+│   ├── data_prep/               ← cleaning, imputation, augmentation
+│   ├── feature_engineering/     ← encoding, interactions, embeddings
+│   ├── model_training/          ← wrappers for GridSearch, BayesianOpt
+│   └── evaluation/              ← custom metrics, cross-val utils
+│
+├── cheatsheets/                 ← quick‐reference notebooks & scripts
+│   ├── hyperparameter_search.md
+│   ├── deployment_cheats.md
+│   └── monitoring_alerts.md
+│
+├── experiments/                 ← benchmarking experiments
+│   ├── xgboost_vs_lightgbm.ipynb
+│   ├── cpu_gpu_comparison.ipynb
+│   └── new_architectures/       ← e.g. TabTransformer, AutoGluon
+│
+└── utils/                       ← small helper scripts & configs
+    ├── logger.py
+    ├── docker/                  ← Dockerfile + compose for demos
+    └── ci/                      ← CI workflows (lint, tests, notebooks)
+
