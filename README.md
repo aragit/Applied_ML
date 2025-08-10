@@ -17,10 +17,10 @@ Though there are many ML courses, most focus on theory and students finish witho
 
 ### What you’ll find here
 
-- ** Pattern Gallery**  
+- **Pattern Gallery**  
   Reusable “how‑to” recipes for data prep, feature engineering, model training, evaluation, and monitoring.
 
-- ** Case Studies**  
+- **Case Studies**  
   End‑to‑end mini‑projects illustrating the complete ML lifecycle—from raw data through production‑ready model.
 
 - **📓 Cheatsheets & Utilities**  
@@ -37,8 +37,11 @@ Though there are many ML courses, most focus on theory and students finish witho
    
    git clone https://github.com/yourusername/Applied_ML.git
    cd Applied_ML
-2. Install dependencies
+   
+3. Install dependencies
+   
    pip install -r requirements.txt
-3. Browse the folders below and jump into any notebook or script that matches your needs.
+   
+5. Browse the folders below and jump into any notebook or script that matches your needs.
 
 
