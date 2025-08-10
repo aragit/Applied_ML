@@ -7,7 +7,7 @@
 - [About](#about)
 - [What You'll Find Here](#what-youll-find-here)
 - [Getting Started](#getting-started)
-- [Contributing](#contributing)  // Add this new section
+- [Contributing](#contributing)  
 - [License](#license)
   
 Applying machine learning is hard. Many organizations have yet to benefit from ML, and most teams still find it tricky to apply it effectively.
