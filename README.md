@@ -1,4 +1,15 @@
+[![Stars](https://img.shields.io/github/stars/aragit/Applied_ML?style=social)](https://github.com/aragit/Applied_ML/stargazers)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+
 # Applied_ML
+
+## Table of Contents
+- [About](#about)
+- [What You'll Find Here](#what-youll-find-here)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)  // Add this new section
+- [License](#license)
+  
 Applying machine learning is hard. Many organizations have yet to benefit from ML, and most teams still find it tricky to apply it effectively.
 
 Though there are many ML courses, most focus on theory and students finish without knowing how to apply ML. Practical know-how is gained via hands-on experience and seldom documented—it's hard to find it in a textbook, class, or tutorial. There's a gap between knowing ML vs. applying it at work.
@@ -35,7 +46,7 @@ Though there are many ML courses, most focus on theory and students finish witho
 
 1. **Clone this repo**  
    ```bash
-   git clone https://github.com/yourusername/Applied_ML.git
+   git clone https://github.com/aragit/Applied_ML.git
    cd Applied_ML
    
 3. Install dependencies
@@ -45,3 +56,5 @@ Though there are many ML courses, most focus on theory and students finish witho
 5. Browse the folders below and jump into any notebook or script that matches your needs.
 
 
+### Contributing
+Pull requests welcome! Focus on practical ML patterns. See CONTRIBUTING.md for guidelines.
