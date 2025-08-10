@@ -34,12 +34,12 @@ Though there are many ML courses, most focus on theory and students finish witho
 ###  Getting Started
 
 1. **Clone this repo**  
-   
+   ```bash
    git clone https://github.com/yourusername/Applied_ML.git
    cd Applied_ML
    
 3. Install dependencies
-   
+   ```bash
    pip install -r requirements.txt
    
 5. Browse the folders below and jump into any notebook or script that matches your needs.
