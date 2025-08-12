@@ -1,7 +1,7 @@
 [![Stars](https://img.shields.io/github/stars/aragit/Applied_ML?style=social)](https://github.com/aragit/Applied_ML/stargazers)
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
 [![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange)](https://jupyter.org/)
-[![Kaggle](https://img.shields.io/badge/Kaggle-Master-orange)](https://www.kaggle.com/arashnic)
+[![Kaggle](https://img.shields.io/badge/Kaggle-Master-red)](https://www.kaggle.com/arashnic)
 
 # Applied_ML
 
